@@ -1,0 +1,176 @@
+/* Importing Google font Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-wrapper{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styling for the navi section */
+.nav{
+    height: 56px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.logo-container {
+   
+    width: 120px;
+    height: 60px;
+    display: flex;
+}
+
+.logo-container:hover{
+    cursor: pointer;
+}
+
+.middle-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 2px;
+    height: 60px;
+    align-items: center;
+    
+    
+}
+
+.middle-menu  a {
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 16px;
+}
+
+.middle-menu > ul > li > a:hover{
+    background-color: rgba(224, 223, 223, 0.05);
+    
+    border-radius: 3px;
+}
+
+
+.right-menu{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+    color: white;
+}
+
+.right-menu:hover{
+    cursor: pointer;
+}
+
+.right-menu span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+
+.right-menu > span:hover{
+    background-color: rgba(224, 223, 223, 0.05);
+    border-radius: 3px;
+}
+
+/* Stlying for the main content or middle section of the page */
+.main-content{
+    color: white;
+    display: flex;
+    height: calc(100vh - 60px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    
+    
+}
+
+.main-text h1{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.main-text a{
+    font-size: 28px;
+    color: white;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+    font-weight: 500;
+}
+
+.main-text a:hover{
+    text-decoration-thickness: 2px;
+}
+
+.main-text p{
+    font-size: 17px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.super-script{
+    vertical-align: top;
+    font-size: 7px;
+    
+}
+
+/* Styling for the buttons */
+
+.buttons-section{
+    display: flex;
+    gap: 15px;
+}
+
+.buttons-section a{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.buttons-section a:hover{
+    font-weight: 900;
+}
+
+
+.blue-btn, .white-btn{
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 264px;
+    height: 40px;
+}
+
+.blue-btn{
+    background-color: #3e6ae1;
+    color: white;
+}
+
+.white-btn{
+    background-color: #fff;
+    color: #56595d;
+}
+
+
+
